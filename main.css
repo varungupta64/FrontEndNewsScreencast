@@ -43,9 +43,14 @@ p{
 }
 
 a{
-
+	color			:	#ff4081;
 }
 
+a:hover,
+a:active,
+a:focus{
+	color			:	#212121;
+}
 
 /*****************************************************
 *	Hero
@@ -81,7 +86,9 @@ a{
 
 .news-link{
 	color			:	#3f51b5;
+	display			:	block;
 	font-size		:	24px;
+	margin-bottom		:	10px;
 }
 
 /*****************************************************
@@ -93,6 +100,19 @@ a{
 	margin			:	0 auto;
 }
 
+/*****************************************************
+*	News-Meta
+*****************************************************/
+
+.news-meta{
+	margin			:	0;
+	padding			:	0;
+}
+
+.news-meta-item{
+	display			:	inline;
+	margin-right		:	20px;
+}
 
 
 
