@@ -12,4 +12,11 @@ $(document).ready(function(){
 		 .addClass('is-liked');
 	});
 
+	$('.js-add-link').on('click',function(event){
+		event.preventDefault();
+		
+		$('.js-form')
+		 .toggleClass('is-visible');
+	});
+
 });
